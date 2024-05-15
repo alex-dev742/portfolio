@@ -10,7 +10,11 @@ export default function Intro() {
     <section>
       <div className="flex items-center justify-center">
         <div className="relative">
-          <motion.div>
+          <motion.div
+            initial={{ opacity: 0, scale: 0 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ type: "tween", duration: 0.2 }}
+          >
             <Image
               src={profilePicture}
               alt="Alex Profile Picture"
@@ -22,7 +26,19 @@ export default function Intro() {
             />
           </motion.div>
 
-          <span className="absolute bottom-0 right-0 text-4xl">👋</span>
+          <motion.span
+            className="absolute bottom-0 right-0 text-4xl"
+            initial={{ opacity: 0, scale: 0 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{
+              type: "spring",
+              stiffness: 125,
+              delay: 0.1,
+              duration: 0.7,
+            }}
+          >
+            👋
+          </motion.span>
         </div>
       </div>
     </section>
