@@ -38,20 +38,6 @@ export default function Intro() {
               className="object-cover shadow-xl w-24 h-24 border-[0.35rem] border-white rounded-full"
             />
           </motion.div>
-
-          <motion.span
-            className="absolute bottom-0 right-0 text-4xl"
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-              type: "spring",
-              stiffness: 125,
-              delay: 0.1,
-              duration: 0.7,
-            }}
-          >
-            👋
-          </motion.span>
         </div>
       </div>
       <motion.h1
@@ -60,8 +46,8 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Alex.</span> I'm a{" "}
-        <span className="font-bold">Web-Developer developer</span>. I enjoy
-        building <span className="italic">Websites & Web Apps</span>.
+        <span className="font-bold">Web-Developer</span>. I enjoy building{" "}
+        <span className="italic">Websites & Web Apps</span>.
       </motion.h1>
       <motion.div
         className="flex flex-col items-center justify-center gap-2 px-4 text-lg font-medium sm:flex-row"
