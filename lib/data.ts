@@ -1,10 +1,11 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import { MdOutlineWarehouse } from "react-icons/md";
+import { BiSupport } from "react-icons/bi";
 
 export const links = [
   {
@@ -35,28 +36,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Junior Developer",
+    location: "South Africa",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a developer working at Pchoice which is a small tech consulting firm providing tech solution to businesses. My stack includes React, Next.js, TypeScript, Tailwind, MySQL and Go. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "08/2023 - Present",
+  },
+  {
+    title: "Tech Support Intern",
+    location: "South Africa",
+    description:
+      "I worked as a Tech Support Intern at Mojo ICT during university recess. My main tasks included providing on and offsite tech support to clients, solving hardware and software related issues.",
+    icon: React.createElement(BiSupport),
+    date: "11/2020 - 03/2021",
+  },
+  {
+    title: "Casual Worker",
+    location: "South Africa",
+    description:
+      "I worked as a Casual Worker at Grit Procurement Solution, my main tasks included stock taking, packing and unpacking stock, and general warehouse duties.",
+    icon: React.createElement(MdOutlineWarehouse),
+    date: "11/2019 - 01/2020",
   },
 ] as const;
 
@@ -98,4 +99,7 @@ export const skillsData = [
   "MySQL",
   "Python",
   "Framer Motion",
+  "Windows",
+  "Linux",
+  "MacOS",
 ] as const;
