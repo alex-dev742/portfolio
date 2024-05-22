@@ -39,7 +39,7 @@ export const experiencesData = [
     title: "Junior Developer",
     location: "South Africa",
     description:
-      "I'm now a developer working at Pchoice which is a small tech consulting firm providing tech solution to businesses. My stack includes React, Next.js, TypeScript, Tailwind, MySQL and Go. I'm open to full-time opportunities.",
+      "I'm am currently a developer working at Pchoice which is a small tech consulting firm providing tech solution to businesses. My stack includes React, Next.js, TypeScript, Tailwind, MySQL and Go.",
     icon: React.createElement(FaReact),
     date: "08/2023 - Present",
   },
